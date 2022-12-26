@@ -30,7 +30,8 @@ name  = "David"
 # List
 
 myData = ['David', 19, 'precious', 23]
-
+str = "this is string example....wow!!!"
+print (str.center(40, 'a'))
 # print(myData)
 # THis return value in the array base on the index and lenght of an array
 # print(myData[0:3])
