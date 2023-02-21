@@ -59,30 +59,30 @@ a = arr.array("i", [1,2,3,4,5,6,7,8,9])
 # print(c)
 
 # SLicing an Array
-# a = arr.array("i", [1,2,3,4,5,6,5,7,8,9])
-# print(a[0:5])
-# print(a[0:-2])
+a = arr.array("i", [1,2,3,4,5,6,5,7,8,9])
+print(a[0:5])
+print(a[0:-2])
 
 # ::-1 print a reverse copy of an array
-# print(a[::-1])
-# print(a)
+print(a[::-1])
+print(a)
 
 # Looping Through an Array
 
 # The for loops iterates over the items of an array in a specified number of times.
-# a = arr.array("i", [1,2,3,4,5,6,7,8,9])
+a = arr.array("i", [1,2,3,4,5,6,7,8,9])
 
-# for x in a:
-#     print(x)
-# for x in a[0: -3]:
-#     print(x)
+for x in a:
+    print(x)
+for x in a[0: -3]:
+    print(x)
 # The while loops iterates over the elements until a certain condition is met.
 
 a = arr.array("i", [1,2,3,4,5,6,7,8,9])
 temp = 0
-# while temp < a[2]:
-#     print(a[temp])
-#     temp = temp + 1
+while temp < a[2]:
+    print(a[temp])
+    temp = temp + 1
 while temp < len(a):
     print(a[temp])
     temp += 1
