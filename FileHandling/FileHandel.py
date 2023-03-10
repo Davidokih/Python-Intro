@@ -44,9 +44,9 @@ file = open("c:/Users/HP/Documents/python/FileHandling/newfile.txt", "x")
 file.write("my new data")
 file.close()
 
-# if os.path.exists("c:/Users/HP/Documents/python/FileHandling/newfile.txt"):
-#     os.remove("c:/Users/HP/Documents/python/FileHandling/newfile.txt")
-# else:
-#     print("The file does not exist")
+if os.path.exists("c:/Users/HP/Documents/python/FileHandling/newfile.txt"):
+    os.remove("c:/Users/HP/Documents/python/FileHandling/newfile.txt")
+else:
+  print("The file does not exist")
 
-# os.remove("c:/Users/HP/Documents/python/FileHandling/newfile.txt")
+os.remove("c:/Users/HP/Documents/python/FileHandling/newfile.txt")
